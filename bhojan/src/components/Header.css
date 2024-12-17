@@ -1,0 +1,70 @@
+/* Header container styling */
+.header {
+    background-color: #fefefe; /* Dark background for header */
+    /* padding: 10px; */
+}
+
+/* Flexbox for aligning header content horizontally */
+header {
+    display: flex;
+    justify-content: space-between; /* Spread elements out */
+    align-items: center; /* Vertically align items */
+}
+
+/* Logo styling */
+.logo {
+    height: 100px; /* Adjust logo size */
+    width: auto;
+}
+
+/* Styling for the search container */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Search input styling */
+.search-input {
+    width: 500px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: 1px solid #d4d4d4;
+    border-radius: 25px;
+    background-color: #f9f9f9;
+    color: white;
+    margin-right: 10px;
+    outline: none;
+}
+
+/* Search button styling */
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button i {
+    color: black;
+    font-size: 18px;
+}
+
+/* Styling for the navigation list (icons) */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px; /* Space between icons */
+}
+
+nav ul li {
+    display: inline;
+    cursor: pointer;
+}
+
+nav ul li i {
+    color: black;
+    font-size: 20px;
+}
+
+nav ul li:hover i {
+    color: #9B001F; /* Change icon color on hover */
+}
