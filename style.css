@@ -1,0 +1,139 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Payment container */
+.payment-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+* /Title styling */
+.payment-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Payment sections layout */
+.payment-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Individual payment section */
+.payment-section {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+/* Section title */
+.section-title {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+/* Payment option styling */
+.payment-option {
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+.payment-option:hover {
+    border-color: #007bff;
+    background-color: white;
+}
+
+/* Selected option styling */
+.payment-option.selected {
+    border-color: white;
+    background-color: purple;
+}
+
+/* Round select indicator */
+.radio-indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: relative;
+}
+
+.payment-option.selected .radio-indicator::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: skyblue;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Payment details text */
+.payment-details {
+    font-weight: bold;
+    color: gray;
+    flex-grow: 1;
+    text-align: left;
+}
+
+/* Proceed button */
+.proceed-btn {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto 0;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.proceed-btn:hover {
+    background-color: green;
+}
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .payment-sections {
+        flex-direction: column;
+    }
+}
+
+

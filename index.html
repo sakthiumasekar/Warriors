@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h2 class="payment-title">Select Payment Method</h2>
+        <div class="payment-sections">
+            <!-- UPI Section -->
+            <div class="payment-section">
+                <h3 class="section-title">UPI Payment</h3>
+                <div class="payment-option" onclick="selectPayment(this)">
+                    <div class="payment-details">Google Pay</div>
+                    <div class="radio-indicator"></div>
+                </div>
+                <div class="payment-option" onclick="selectPayment(this)">
+                    <div class="payment-details">PhonePe</div>
+                    <div class="radio-indicator"></div>
+                </div>
+                </div class="payment-option"onclick="selectpayment(this)">
+                    <div class="payment-details">Paytm</div>
+                    <div class="radio-indicator"></div>
+                </div>
+
+            <!-- Card Section -->
+            <div class="payment-section">
+                <h3 class="section-title">Card Payment</h3>
+                <div class="payment-option" onclick="selectPayment(this)">
+                    <div class="payment-details">Credit Card</div>
+                    <div class="radio-indicator"></div>
+                </div>
+                <div class="payment-option" onclick="selectPayment(this)">
+                    <div class="payment-details">Debit Card</div>
+                    <div class="radio-indicator"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cash Section -->
+        <div class="payment-section">
+            <h3 class="section-title">Cash Payment</h3>
+            <div class="payment-option" onclick="selectPayment(this)">
+                <div class="payment-details">Cash on Delivery</div>
+                <div class="radio-indicator"></div>
+            </div>
+        </div>
+    </div>
+    <button class="proceed-btn">Place Order</button>
+</div>
+
+</body>
+</html>
