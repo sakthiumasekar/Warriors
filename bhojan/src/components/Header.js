@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../images/logo.png';
 import './Header.css';
 
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
@@ -16,9 +17,9 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    <li><i className="fas fa-bell"></i></li>
-                    <li><i className="fas fa-shopping-cart"></i></li>
-                    <li><i className="fas fa-user"></i></li>
+                    <li><Link to="/"><i className="fas fa-home"></i></Link></li>
+                    <li><Link to="/cart"><i className="fas fa-shopping-cart"></i></Link></li>
+                    <li><Link to="/profile"><i className="fas fa-user"></i></Link></li>
                 </ul>
             </nav>
         </header>

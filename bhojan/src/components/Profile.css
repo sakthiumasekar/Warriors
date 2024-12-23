@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: "popooins", sans-serif;
+  box-sizing: border-box;
+}
+
+.pcontainer {
+  background-image: url(../images/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 3px auto 0;
+}
+.pheader{
+  background: none;
+  display: flex;
+  justify-content: space-between; /* Spread elements out */
+  align-items: center; /* Vertically align items */
+}
+.plogo {
+  height: 100px; /* Adjust logo size */
+  width: auto;
+}
+.pul{
+  list-style-type: none;
+  display: flex;
+  gap: 30px; /* Space between icons */
+}
+
+.pli{
+  display: inline;
+  cursor: pointer;
+}
+
+.pli i {
+  color: white;
+  font-size: 20px;
+}
+
+.pli:hover i {
+  color: #9B001F; /* Change icon color on hover */
+}
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container to center the content */
+.content {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  height: 80vh;            /* Full viewport height */
+}
+
+/* Styling for the profile card */
+.pcard {
+  background: rgba(255, 255, 255, 0.158);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  padding: 30px;
+  width: 550px;             /* Set a specific width */
+  max-width: 100%;
+  text-align: center;
+}
+
+/* Header section inside the card */
+.chead {
+  display: flex;
+  justify-content: space-between; /* Spread items out */
+  align-items: center;
+  margin-bottom: 20px;            /* Spacing below the header */
+}
+
+/* Icon for editing (increase size and add spacing) */
+.picon i {
+  font-size: 24px; /* Adjust the size of the edit icon */
+  color: #9b001f;  /* Optional: change the color */
+  cursor: pointer; /* Make it clickable */
+}
+
+/* Profile image styling (if you want to add a profile picture) */
+.userprofile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ddd; /* Placeholder for the profile image */
+  margin-left: 10px;
+}
+
+/* Main text section inside the card */
+.ptext {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;  /* Align the form labels and inputs to the left */
+}
+
+/* Styling for form labels and inputs */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Button styling */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.fbutton,
+.orderhistory {
+  background-color: #9b001f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fbutton:hover,
+.orderhistory:hover {
+  background-color: #7a0015;  /* Darken the button color on hover */
+}
+
+
+/* .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pcard {
+  border: 1px;
+  width: 500px;
+  height: 550px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+.chead{
+
+}
+.picon {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 20px; 
+  cursor: pointer;
+}
+.ptext {
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.userprofile {
+  width: 80px;
+  height: 80px;
+  content: url(../images/profilelogo.png);
+}
+.fbutton {
+  border: none;
+  background-color: #9B001F;
+  color: aliceblue;
+  text-align: center;
+  padding: 15px 12px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Times New Roman", serif;
+}
+
+.orderhistory {
+  border: none;
+  background-color:  #9B001F;
+  text-align: center;
+  padding: 15px 23px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: aliceblue;
+  font-family: "Times New Roman", serif;
+}
+
+
+label {
+  width: 200px;
+  display: inline-block;
+  margin: 4px;
+  font-family: "Times New Roman", serif;
+  color: black;
+  text-align: justify;
+}
+input {
+  color: #131313;
+  background-color: #c7c7c7;
+  border-radius: 5px;
+  border-color: rgb(182, 182, 182);
+  border: 2px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  
+  font-size: 17px;
+  font-family: "Times New Roman", serif;
+}
+.form1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+} */
