@@ -1,15 +1,18 @@
-import Category from "./components/Category";
-import Header from "./components/Header";
-import ItemsList from "./components/ItemsList";
-
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Signup from "./components/Signup";
+import SignIn from './components/SignIn';
 function App() {
   return (
     <>
-    <Header/>
-    <Category/>
-    <ItemsList/>
-    </>
+
+    <Router>
+        <Routes>
+          <Route path="/" element={<SignIn/> } />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+    </Router >
+   </>
   );
 }
 
