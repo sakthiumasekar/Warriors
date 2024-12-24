@@ -1,0 +1,184 @@
+.cart-container {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.cart-items {
+  width: 66.666667%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 1rem;
+}
+
+.select-text {
+  display: flex;
+  gap: 0.5rem;
+  color: #4b5563;
+}
+
+.orange-text {
+  color: green;
+  font-weight: 500;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid #f1f1f1;
+  transition: border-color 0.2s;
+}
+
+.product-card:hover {
+  border-color: #fed7aa;
+}
+
+.product-checkbox {
+  width: 1.25rem;
+  height: 1.25rem;
+  accent-color: #f97316;
+  cursor: pointer;
+}
+
+.product-image {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 0.375rem;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-name {
+  color: #1f2937;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.product-price {
+  color: #f97316;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.quantity-btn {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  background-color: white;
+  color: black;
+  transition: background-color 0.2s;
+}
+
+.quantity-btn:hover {
+  background-color: #f9fafb;
+}
+
+.quantity-input {
+  width: 3rem;
+  height: 2rem;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  outline: none;
+  font-size: small;
+}
+
+.payment-section {
+width: 33.333333%;
+}
+
+.payment-card {
+background-color: white;
+padding: 1.5rem;
+border-radius: 0.5rem;
+border: 1px solid #f1f1f1;
+position: sticky;
+top: 1.5rem;
+}
+
+.payment-title {
+font-weight: 500;
+font-size: 1.125rem;
+color: #1f2937;
+margin-bottom: 1.5rem;
+}
+
+.payment-details {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+margin-bottom: 1.5rem;
+}
+
+.payment-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #4b5563;
+}
+
+.payment-row.total {
+padding-top: 1rem;
+border-top: 1px solid  white;
+font-weight: 500;
+color: #1f2937;
+}
+
+.checkout-btn {
+width: 100%;
+background-color: green;
+color: white;
+padding: 0.75rem;
+border-radius: 0.5rem;
+font-weight: 500;
+margin-bottom: 0.30rem;
+transition: background-color 0.2s;
+}
+
+  .checkout-btn:hover {
+background-color: green;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
+
+
+

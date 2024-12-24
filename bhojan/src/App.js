@@ -1,14 +1,13 @@
-import Category from "./components/Category";
-import Header from "./components/Header";
-import ItemsList from "./components/ItemsList";
+import React from "react";
+import PaymentDetails from "./components/PaymentDetails";
+
 
 function App() {
+  
   return (
-    <>
-    <Header/>
-    <Category/>
-    <ItemsList/>
-    </>
+    <div>
+      <PaymentDetails />
+    </div>
   );
 }
 
