@@ -1,5 +1,5 @@
 /* form-container styling */
-form-container{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,39 +11,55 @@ body{
     align-items: center;
     min-height: 100vh;
     justify-content: center;
-    background-image:url(../images/signin-bg.jpg);
+    /* background-image:url(../images/signin-bg.jpg); */
     background-size: cover;
     background-position: center;
 }
 /* signin-form */
-signin-form{
-    background: rgba(64, 64, 64, 0.15);
+.signin-form{
+    background: rgba(255, 255, 255, 0.736);
+    /* background-color: #d4d4d4; */
     padding: 40px;
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid #d4d4d4;
     border-radius: 16px;
     text-align: center;
     width: 400px;
-    color: beige;
+    color: white;
+    box-shadow: 0 0 5px 5px #9b001f22;
 }
 /* signin-title */
-signin-title{
+.signin-title{
     font-size: 50px;
     margin-bottom: 40px;
 }
 /* input-box */
-input-box{
+.input-box{
     box-sizing: content-box;
     text-align: center;
 }
 /* input-box input */
-input-box{
-    width: 100px;
-    border: none;
+.input-box input{
+    width: 100%;
+    border: 2px solid;
+    border-color: #9b001f22;
     background: 255, 255, 255, 0.1;
-    padding: 12px 12px 12px 45px;
-
-
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    outline: 3px solid transparent;
+    transition: 0.3s;
+    font-size: 17px;
+    color: black;
+    font-weight: 100;
 }
+/* login-btn */
+.login-btn{
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: #4ab256;
+    border: 2px solid #9b001f22;
+}
+
+
 
 
 

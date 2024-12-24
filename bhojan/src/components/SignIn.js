@@ -26,22 +26,24 @@ const SignIn = () => {
 
   return (
     <div className="form-container">
-         <h2><center>SignIn</center></h2>
+         <h2 className='signin-title'><center>SignIn</center></h2>
       {error && <p className="error">{error}</p>}
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Username</label>
+      <form onSubmit={handleSubmit} className='signin-form'>
+        <div className='input-box'>
+          {/* <label>Username:</label> */}
           <input type="Username" onChange={(e) => setUsername(e.target.value)} placeholder="Enter your Username" required/><br/><br/>
         </div>
-        <div>
-          <label>Password:</label>
+        <div className='input-box'>
+          {/* <label>Password:</label> */}
           <input type="password" onChange={(e) => setPassword(e.target.value)} placeholder="Enter your password" required
           /><br/>
         </div>
-        <button type="submit">Login</button>
+        <br></br>
+        <button type="submit" className='login-btn'>Login</button>
       </form>
-      <p>
-        Don't have an account? <Link to='/signup'>SignUp</Link>
+      <p className='signup'>
+        <br></br>
+        <center>Don't have an account?<Link to='/signup'>SignUp</Link></center>
       </p>
     </div>
   );
